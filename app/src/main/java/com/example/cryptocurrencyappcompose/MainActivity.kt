@@ -10,7 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.cryptocurrencyappcompose.ui.theme.CryptoCurrencyAppComposeTheme
+import com.example.cryptocurrencyappcompose.presentation.ui.theme.CryptoCurrencyAppComposeTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,7 +34,6 @@ fun Greeting(name: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    CryptoCurrencyAppComposeTheme {
-        Greeting("Android")
-    }
+
 }
+
